@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+
+</style>
+<body class="h-full">
+<div class="bg-slate-500 h-full w-full flex justify-center">
+    <div class="flex flex-col justify-center ">
+        <div class="max-w-[400px] min-w-[350px]  bg-slate-300 rounded-xl p-8">
+            <ul>
+              {% for team in teams %}
+                <li>{{ team.name }} : {{team.score}} | timestamp sum : {{team.timestamps}}</li>
+              {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+setTimeout(()=> location.reload() , {{time_to_refresh}})
+</script>
+</html>
