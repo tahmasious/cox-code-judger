@@ -19,12 +19,12 @@ def submitTestCase(request):
                         'message': 'You have already answered this test case',
                                                            'color': 'success'
                                     })
-                # if len(TestCaseTry.objects.filter(test_case=test_case_obj)) >= 3:
-                #
-                #     return render(request, 'submit.html', {
-                #         'message': 'You can attempt more than 3 times for each test case !',
-                #                                            'color': 'error'
-                #                     })
+                if len(TestCaseTry.objects.filter(test_case=test_case_obj)) >= 3:
+
+                    return render(request, 'submit.html', {
+                        'message': 'You can attempt more than 3 times for each test case !',
+                                                           'color': 'error'
+                                    })
                 is_correct = submitted_answer == test_case_obj.answer.split(',')
                 TestCaseTry.objects.create(test_case=test_case_obj, is_correct=is_correct, submitted_answer=submitted_answer)
                 if is_correct:
