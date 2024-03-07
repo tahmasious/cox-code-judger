@@ -1,0 +1,1830 @@
+[
+  {
+    "number": 1,
+    "questions": [
+      {
+        "number": 1,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "-1 -1 14 22 23 23 23 23 23 24"
+          },
+          {
+            "number": 2,
+            "output": "-1 -1 38 39 39 44 44 44"
+          },
+          {
+            "number": 3,
+            "output": "-1 -1 39 46 46 54"
+          },
+          {
+            "number": 4,
+            "output": "-1 -1 35 44"
+          },
+          {
+            "number": 5,
+            "output": "-1 -1 32 37 43 43 43 44 44 44 44"
+          },
+          {
+            "number": 6,
+            "output": "-1 -1 34 34 42 42 50 52 52 52 52"
+          },
+          {
+            "number": 7,
+            "output": "-1 -1 30"
+          },
+          {
+            "number": 8,
+            "output": "-1 -1 36 36 47 47 47 54 54 54 54"
+          },
+          {
+            "number": 9,
+            "output": "-1 -1 34 39 39 39 39 39 40 40"
+          },
+          {
+            "number": 10,
+            "output": "-1 -1 26 33 33 40 40 44 44 44"
+          },
+          {
+            "number": 11,
+            "output": "-1 -1 35 40 53 56 56 56"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "6"
+          },
+          {
+            "number": 2,
+            "output": "8"
+          },
+          {
+            "number": 3,
+            "output": "12"
+          },
+          {
+            "number": 4,
+            "output": "60"
+          },
+          {
+            "number": 5,
+            "output": "6"
+          },
+          {
+            "number": 6,
+            "output": "30"
+          },
+          {
+            "number": 7,
+            "output": "12"
+          },
+          {
+            "number": 8,
+            "output": "24"
+          },
+          {
+            "number": 9,
+            "output": "6"
+          },
+          {
+            "number": 10,
+            "output": "12"
+          },
+          {
+            "number": 11,
+            "output": "32"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "1"
+          },
+          {
+            "number": 2,
+            "output": "2"
+          },
+          {
+            "number": 3,
+            "output": "0"
+          },
+          {
+            "number": 4,
+            "output": "0"
+          },
+          {
+            "number": 5,
+            "output": "0"
+          },
+          {
+            "number": 6,
+            "output": "4"
+          },
+          {
+            "number": 7,
+            "output": "3"
+          },
+          {
+            "number": 8,
+            "output": "0"
+          },
+          {
+            "number": 9,
+            "output": "5"
+          },
+          {
+            "number": 10,
+            "output": "0"
+          },
+          {
+            "number": 11,
+            "output": "4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "questions": [
+      {
+        "number": 13,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "0"
+          },
+          {
+            "number": 2,
+            "output": "4"
+          },
+          {
+            "number": 3,
+            "output": "5"
+          },
+          {
+            "number": 4,
+            "output": "8"
+          },
+          {
+            "number": 5,
+            "output": "0"
+          },
+          {
+            "number": 6,
+            "output": "6"
+          },
+          {
+            "number": 7,
+            "output": "8"
+          },
+          {
+            "number": 8,
+            "output": "68"
+          },
+          {
+            "number": 9,
+            "output": "49"
+          },
+          {
+            "number": 10,
+            "output": "0"
+          },
+          {
+            "number": 11,
+            "output": "0"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "3"
+          },
+          {
+            "number": 2,
+            "output": "0"
+          },
+          {
+            "number": 3,
+            "output": "8"
+          },
+          {
+            "number": 4,
+            "output": "0"
+          },
+          {
+            "number": 5,
+            "output": "7"
+          },
+          {
+            "number": 6,
+            "output": "3"
+          },
+          {
+            "number": 7,
+            "output": "0"
+          },
+          {
+            "number": 8,
+            "output": "4"
+          },
+          {
+            "number": 9,
+            "output": "5"
+          },
+          {
+            "number": 10,
+            "output": "0"
+          },
+          {
+            "number": 11,
+            "output": "7"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "14"
+          },
+          {
+            "number": 2,
+            "output": "62"
+          },
+          {
+            "number": 3,
+            "output": "86"
+          },
+          {
+            "number": 4,
+            "output": "50"
+          },
+          {
+            "number": 5,
+            "output": "54"
+          },
+          {
+            "number": 6,
+            "output": "91"
+          },
+          {
+            "number": 7,
+            "output": "92"
+          },
+          {
+            "number": 8,
+            "output": "44"
+          },
+          {
+            "number": 9,
+            "output": "44"
+          },
+          {
+            "number": 10,
+            "output": "45"
+          },
+          {
+            "number": 11,
+            "output": "91"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "questions": [
+      {
+        "number": 16,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "45"
+          },
+          {
+            "number": 2,
+            "output": "4356"
+          },
+          {
+            "number": 3,
+            "output": "35"
+          },
+          {
+            "number": 4,
+            "output": "343"
+          },
+          {
+            "number": 5,
+            "output": "456"
+          },
+          {
+            "number": 6,
+            "output": "740"
+          },
+          {
+            "number": 7,
+            "output": "4307"
+          },
+          {
+            "number": 8,
+            "output": "297"
+          },
+          {
+            "number": 9,
+            "output": "4494"
+          },
+          {
+            "number": 10,
+            "output": "4944"
+          },
+          {
+            "number": 11,
+            "output": "1914"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "561920755"
+          },
+          {
+            "number": 2,
+            "output": "69373"
+          },
+          {
+            "number": 3,
+            "output": "201730"
+          },
+          {
+            "number": 4,
+            "output": "33250"
+          },
+          {
+            "number": 5,
+            "output": "447913"
+          },
+          {
+            "number": 6,
+            "output": "61734"
+          },
+          {
+            "number": 7,
+            "output": "76250"
+          },
+          {
+            "number": 8,
+            "output": "944453"
+          },
+          {
+            "number": 9,
+            "output": "61"
+          },
+          {
+            "number": 10,
+            "output": "4270"
+          },
+          {
+            "number": 11,
+            "output": "485756"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "4"
+          },
+          {
+            "number": 2,
+            "output": "16"
+          },
+          {
+            "number": 3,
+            "output": "5"
+          },
+          {
+            "number": 4,
+            "output": "10"
+          },
+          {
+            "number": 5,
+            "output": "11"
+          },
+          {
+            "number": 6,
+            "output": "25"
+          },
+          {
+            "number": 7,
+            "output": "7"
+          },
+          {
+            "number": 8,
+            "output": "14"
+          },
+          {
+            "number": 9,
+            "output": "6"
+          },
+          {
+            "number": 10,
+            "output": "29"
+          },
+          {
+            "number": 11,
+            "output": "11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "questions": [
+      {
+        "number": 11,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "1"
+          },
+          {
+            "number": 2,
+            "output": "0"
+          },
+          {
+            "number": 3,
+            "output": "1"
+          },
+          {
+            "number": 4,
+            "output": "0"
+          },
+          {
+            "number": 5,
+            "output": "1"
+          },
+          {
+            "number": 6,
+            "output": "0"
+          },
+          {
+            "number": 7,
+            "output": "0"
+          },
+          {
+            "number": 8,
+            "output": "1"
+          },
+          {
+            "number": 9,
+            "output": "1"
+          },
+          {
+            "number": 10,
+            "output": "1"
+          },
+          {
+            "number": 11,
+            "output": "1"
+          }
+        ]
+      },
+      {
+        "number": 17,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "YES"
+          },
+          {
+            "number": 2,
+            "output": "NO"
+          },
+          {
+            "number": 3,
+            "output": "NO"
+          },
+          {
+            "number": 4,
+            "output": "YES"
+          },
+          {
+            "number": 5,
+            "output": "YES"
+          },
+          {
+            "number": 6,
+            "output": "NO"
+          },
+          {
+            "number": 7,
+            "output": "NO"
+          },
+          {
+            "number": 8,
+            "output": "YES"
+          },
+          {
+            "number": 9,
+            "output": "NO"
+          },
+          {
+            "number": 10,
+            "output": "NO"
+          },
+          {
+            "number": 11,
+            "output": "NO"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "7"
+          },
+          {
+            "number": 2,
+            "output": "4 "
+          },
+          {
+            "number": 3,
+            "output": "5"
+          },
+          {
+            "number": 4,
+            "output": "5"
+          },
+          {
+            "number": 5,
+            "output": "5"
+          },
+          {
+            "number": 6,
+            "output": "7"
+          },
+          {
+            "number": 7,
+            "output": "7"
+          },
+          {
+            "number": 8,
+            "output": "3"
+          },
+          {
+            "number": 9,
+            "output": "6"
+          },
+          {
+            "number": 10,
+            "output": "3"
+          },
+          {
+            "number": 11,
+            "output": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "questions": [
+      {
+        "number": 12,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "4"
+          },
+          {
+            "number": 2,
+            "output": "14"
+          },
+          {
+            "number": 3,
+            "output": "0"
+          },
+          {
+            "number": 4,
+            "output": "0"
+          },
+          {
+            "number": 5,
+            "output": "30"
+          },
+          {
+            "number": 6,
+            "output": "0"
+          },
+          {
+            "number": 7,
+            "output": "0"
+          },
+          {
+            "number": 8,
+            "output": "23"
+          },
+          {
+            "number": 9,
+            "output": "0"
+          },
+          {
+            "number": 10,
+            "output": "0"
+          },
+          {
+            "number": 11,
+            "output": "0"
+          }
+        ]
+      },
+      {
+        "number": 18,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "252"
+          },
+          {
+            "number": 2,
+            "output": "3478"
+          },
+          {
+            "number": 3,
+            "output": "1089"
+          },
+          {
+            "number": 4,
+            "output": "1207"
+          },
+          {
+            "number": 5,
+            "output": "2944"
+          },
+          {
+            "number": 6,
+            "output": "90"
+          },
+          {
+            "number": 7,
+            "output": "1462"
+          },
+          {
+            "number": 8,
+            "output": "4606"
+          },
+          {
+            "number": 9,
+            "output": "1008"
+          },
+          {
+            "number": 10,
+            "output": "40"
+          },
+          {
+            "number": 11,
+            "output": "403"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "3"
+          },
+          {
+            "number": 2,
+            "output": "8"
+          },
+          {
+            "number": 3,
+            "output": "8"
+          },
+          {
+            "number": 4,
+            "output": "4"
+          },
+          {
+            "number": 5,
+            "output": "5"
+          },
+          {
+            "number": 6,
+            "output": "8"
+          },
+          {
+            "number": 7,
+            "output": "3"
+          },
+          {
+            "number": 8,
+            "output": "6"
+          },
+          {
+            "number": 9,
+            "output": "10"
+          },
+          {
+            "number": 10,
+            "output": "11"
+          },
+          {
+            "number": 11,
+            "output": "2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "questions": [
+      {
+        "number": 10,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "6"
+          },
+          {
+            "number": 2,
+            "output": "48"
+          },
+          {
+            "number": 3,
+            "output": "52"
+          },
+          {
+            "number": 4,
+            "output": "44"
+          },
+          {
+            "number": 5,
+            "output": "11"
+          },
+          {
+            "number": 6,
+            "output": "20"
+          },
+          {
+            "number": 7,
+            "output": "6"
+          },
+          {
+            "number": 8,
+            "output": "10"
+          },
+          {
+            "number": 9,
+            "output": "6"
+          },
+          {
+            "number": 10,
+            "output": "0"
+          },
+          {
+            "number": 11,
+            "output": "10"
+          }
+        ]
+      },
+      {
+        "number": 14,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "2013"
+          },
+          {
+            "number": 2,
+            "output": "2315"
+          },
+          {
+            "number": 3,
+            "output": "3912"
+          },
+          {
+            "number": 4,
+            "output": "4621"
+          },
+          {
+            "number": 5,
+            "output": "3208"
+          },
+          {
+            "number": 6,
+            "output": "4780"
+          },
+          {
+            "number": 7,
+            "output": "2653"
+          },
+          {
+            "number": 8,
+            "output": "4967"
+          },
+          {
+            "number": 9,
+            "output": "2891"
+          },
+          {
+            "number": 10,
+            "output": "3175"
+          },
+          {
+            "number": 11,
+            "output": "4089"
+          }
+        ]
+      },
+      {
+        "number": 19,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "Yes"
+          },
+          {
+            "number": 2,
+            "output": "No"
+          },
+          {
+            "number": 3,
+            "output": "No"
+          },
+          {
+            "number": 4,
+            "output": "No"
+          },
+          {
+            "number": 5,
+            "output": "Yes"
+          },
+          {
+            "number": 6,
+            "output": "No"
+          },
+          {
+            "number": 7,
+            "output": "No"
+          },
+          {
+            "number": 8,
+            "output": "No"
+          },
+          {
+            "number": 9,
+            "output": "Yes"
+          },
+          {
+            "number": 10,
+            "output": "No"
+          },
+          {
+            "number": 11,
+            "output": "No"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "questions": [
+      {
+        "number": 15,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "4"
+          },
+          {
+            "number": 2,
+            "output": "8"
+          },
+          {
+            "number": 3,
+            "output": "12"
+          },
+          {
+            "number": 4,
+            "output": "4"
+          },
+          {
+            "number": 5,
+            "output": "2"
+          },
+          {
+            "number": 6,
+            "output": "2"
+          },
+          {
+            "number": 7,
+            "output": "0"
+          },
+          {
+            "number": 8,
+            "output": "0"
+          },
+          {
+            "number": 9,
+            "output": "6"
+          },
+          {
+            "number": 10,
+            "output": "8"
+          },
+          {
+            "number": 11,
+            "output": "12"
+          }
+        ]
+      },
+      {
+        "number": 20,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "4"
+          },
+          {
+            "number": 2,
+            "output": "4"
+          },
+          {
+            "number": 3,
+            "output": "4"
+          },
+          {
+            "number": 4,
+            "output": "4"
+          },
+          {
+            "number": 5,
+            "output": "4"
+          },
+          {
+            "number": 6,
+            "output": "4"
+          },
+          {
+            "number": 7,
+            "output": "4"
+          },
+          {
+            "number": 8,
+            "output": "4"
+          },
+          {
+            "number": 9,
+            "output": "4"
+          },
+          {
+            "number": 10,
+            "output": "2"
+          },
+          {
+            "number": 11,
+            "output": "7"
+          }
+        ]
+      },
+      {
+        "number": 21,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "10"
+          },
+          {
+            "number": 2,
+            "output": "5 10 7 8 11 11"
+          },
+          {
+            "number": 3,
+            "output": "5 2 6 5 2 1"
+          },
+          {
+            "number": 4,
+            "output": "3 11 11 10"
+          },
+          {
+            "number": 5,
+            "output": "16 1 0 1 0 0 1 0 0 0 0 0 1 0 0 1 0"
+          },
+          {
+            "number": 6,
+            "output": "8 7 1 4 6 2 8 11 3"
+          },
+          {
+            "number": 7,
+            "output": "6 18 21 8 1 29 18"
+          },
+          {
+            "number": 8,
+            "output": "6 4 21 11 27 22 18"
+          },
+          {
+            "number": 9,
+            "output": "5 1 12 19 14 0"
+          },
+          {
+            "number": 10,
+            "output": "2 13 111"
+          },
+          {
+            "number": 11,
+            "output": "5 1 7 5 10 9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "questions": [
+      {
+        "number": 22,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "8"
+          },
+          {
+            "number": 2,
+            "output": "2"
+          },
+          {
+            "number": 3,
+            "output": "26"
+          },
+          {
+            "number": 4,
+            "output": "24"
+          },
+          {
+            "number": 5,
+            "output": "24"
+          },
+          {
+            "number": 6,
+            "output": "16"
+          },
+          {
+            "number": 7,
+            "output": "12"
+          },
+          {
+            "number": 8,
+            "output": "23"
+          },
+          {
+            "number": 9,
+            "output": "21"
+          },
+          {
+            "number": 10,
+            "output": "19"
+          },
+          {
+            "number": 11,
+            "output": "19"
+          }
+        ]
+      },
+      {
+        "number": 25,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "2"
+          },
+          {
+            "number": 2,
+            "output": "0"
+          },
+          {
+            "number": 3,
+            "output": "0"
+          },
+          {
+            "number": 4,
+            "output": "2"
+          },
+          {
+            "number": 5,
+            "output": "1"
+          },
+          {
+            "number": 6,
+            "output": "2"
+          },
+          {
+            "number": 7,
+            "output": "1"
+          },
+          {
+            "number": 8,
+            "output": "1"
+          },
+          {
+            "number": 9,
+            "output": "3"
+          },
+          {
+            "number": 10,
+            "output": "2"
+          },
+          {
+            "number": 11,
+            "output": "2"
+          }
+        ]
+      },
+      {
+        "number": 26,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "2"
+          },
+          {
+            "number": 2,
+            "output": "-1"
+          },
+          {
+            "number": 3,
+            "output": "5"
+          },
+          {
+            "number": 4,
+            "output": "-1"
+          },
+          {
+            "number": 5,
+            "output": "3"
+          },
+          {
+            "number": 6,
+            "output": "-1"
+          },
+          {
+            "number": 7,
+            "output": "-1"
+          },
+          {
+            "number": 8,
+            "output": "-1"
+          },
+          {
+            "number": 9,
+            "output": "10"
+          },
+          {
+            "number": 10,
+            "output": "-1"
+          },
+          {
+            "number": 11,
+            "output": "-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "questions": [
+      {
+        "number": 23,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "3"
+          },
+          {
+            "number": 2,
+            "output": "6"
+          },
+          {
+            "number": 3,
+            "output": "0"
+          },
+          {
+            "number": 4,
+            "output": "0"
+          },
+          {
+            "number": 5,
+            "output": "1"
+          },
+          {
+            "number": 6,
+            "output": "0"
+          },
+          {
+            "number": 7,
+            "output": "4"
+          },
+          {
+            "number": 8,
+            "output": "0"
+          },
+          {
+            "number": 9,
+            "output": "2"
+          },
+          {
+            "number": 10,
+            "output": "0"
+          },
+          {
+            "number": 11,
+            "output": "3"
+          },
+          {
+            "number": 12,
+            "output": "0"
+          }
+        ]
+      },
+      {
+        "number": 27,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "YES"
+          },
+          {
+            "number": 2,
+            "output": "YES"
+          },
+          {
+            "number": 3,
+            "output": "NO"
+          },
+          {
+            "number": 4,
+            "output": "NO"
+          },
+          {
+            "number": 5,
+            "output": "NO"
+          },
+          {
+            "number": 6,
+            "output": "YES"
+          },
+          {
+            "number": 7,
+            "output": "NO"
+          },
+          {
+            "number": 8,
+            "output": "YES"
+          },
+          {
+            "number": 9,
+            "output": "NO"
+          },
+          {
+            "number": 10,
+            "output": "YES"
+          },
+          {
+            "number": 11,
+            "output": "NO"
+          }
+        ]
+      },
+      {
+        "number": 35,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "5"
+          },
+          {
+            "number": 2,
+            "output": "4"
+          },
+          {
+            "number": 3,
+            "output": "3"
+          },
+          {
+            "number": 4,
+            "output": "1"
+          },
+          {
+            "number": 5,
+            "output": "5"
+          },
+          {
+            "number": 6,
+            "output": "0"
+          },
+          {
+            "number": 7,
+            "output": "3"
+          },
+          {
+            "number": 8,
+            "output": "3"
+          },
+          {
+            "number": 9,
+            "output": "4"
+          },
+          {
+            "number": 10,
+            "output": "2"
+          },
+          {
+            "number": 11,
+            "output": "2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 10,
+    "questions": [
+      {
+        "number": 24,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "8"
+          },
+          {
+            "number": 2,
+            "output": "2"
+          },
+          {
+            "number": 3,
+            "output": "299"
+          },
+          {
+            "number": 4,
+            "output": "983"
+          },
+          {
+            "number": 5,
+            "output": "716"
+          },
+          {
+            "number": 6,
+            "output": "704"
+          },
+          {
+            "number": 7,
+            "output": "80"
+          },
+          {
+            "number": 8,
+            "output": "42"
+          },
+          {
+            "number": 9,
+            "output": "650"
+          },
+          {
+            "number": 10,
+            "output": "341"
+          },
+          {
+            "number": 11,
+            "output": "219"
+          }
+        ]
+      },
+      {
+        "number": 28,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "326"
+          },
+          {
+            "number": 2,
+            "output": "800"
+          },
+          {
+            "number": 3,
+            "output": "326"
+          },
+          {
+            "number": 4,
+            "output": "188"
+          },
+          {
+            "number": 5,
+            "output": "919"
+          },
+          {
+            "number": 6,
+            "output": "700"
+          },
+          {
+            "number": 7,
+            "output": "133"
+          },
+          {
+            "number": 8,
+            "output": "400"
+          },
+          {
+            "number": 9,
+            "output": "800"
+          },
+          {
+            "number": 10,
+            "output": "700"
+          },
+          {
+            "number": 11,
+            "output": "199"
+          }
+        ]
+      },
+      {
+        "number": 29,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "2"
+          },
+          {
+            "number": 2,
+            "output": "4"
+          },
+          {
+            "number": 3,
+            "output": "12"
+          },
+          {
+            "number": 4,
+            "output": "8"
+          },
+          {
+            "number": 5,
+            "output": "13"
+          },
+          {
+            "number": 6,
+            "output": "8"
+          },
+          {
+            "number": 7,
+            "output": "22"
+          },
+          {
+            "number": 8,
+            "output": "2"
+          },
+          {
+            "number": 9,
+            "output": "26"
+          },
+          {
+            "number": 10,
+            "output": "0"
+          },
+          {
+            "number": 11,
+            "output": "21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 11,
+    "questions": [
+      {
+        "number": 30,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "15"
+          },
+          {
+            "number": 2,
+            "output": "3"
+          },
+          {
+            "number": 3,
+            "output": "4590"
+          },
+          {
+            "number": 4,
+            "output": "1958"
+          },
+          {
+            "number": 5,
+            "output": "17428"
+          },
+          {
+            "number": 6,
+            "output": "9404"
+          },
+          {
+            "number": 7,
+            "output": "4158"
+          },
+          {
+            "number": 8,
+            "output": "6077"
+          },
+          {
+            "number": 9,
+            "output": "5294"
+          },
+          {
+            "number": 10,
+            "output": "12676"
+          },
+          {
+            "number": 11,
+            "output": "18434"
+          }
+        ]
+      },
+      {
+        "number": 31,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "7"
+          },
+          {
+            "number": 2,
+            "output": "26"
+          },
+          {
+            "number": 3,
+            "output": "28"
+          },
+          {
+            "number": 4,
+            "output": "19"
+          },
+          {
+            "number": 5,
+            "output": ""
+          },
+          {
+            "number": 6,
+            "output": "19"
+          },
+          {
+            "number": 7,
+            "output": "30"
+          },
+          {
+            "number": 8,
+            "output": "25"
+          },
+          {
+            "number": 9,
+            "output": "23"
+          },
+          {
+            "number": 10,
+            "output": "19"
+          },
+          {
+            "number": 11,
+            "output": "29"
+          }
+        ]
+      },
+      {
+        "number": 34,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "3"
+          },
+          {
+            "number": 2,
+            "output": "9"
+          },
+          {
+            "number": 3,
+            "output": "0"
+          },
+          {
+            "number": 4,
+            "output": "4"
+          },
+          {
+            "number": 5,
+            "output": "2"
+          },
+          {
+            "number": 6,
+            "output": "0"
+          },
+          {
+            "number": 7,
+            "output": "2"
+          },
+          {
+            "number": 8,
+            "output": "0"
+          },
+          {
+            "number": 9,
+            "output": "1"
+          },
+          {
+            "number": 10,
+            "output": "5"
+          },
+          {
+            "number": 11,
+            "output": "0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 12,
+    "questions": [
+      {
+        "number": 32,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "20"
+          },
+          {
+            "number": 2,
+            "output": "56"
+          },
+          {
+            "number": 3,
+            "output": "65"
+          },
+          {
+            "number": 4,
+            "output": "96"
+          },
+          {
+            "number": 5,
+            "output": "44"
+          },
+          {
+            "number": 6,
+            "output": "99"
+          },
+          {
+            "number": 7,
+            "output": "56"
+          },
+          {
+            "number": 8,
+            "output": "72"
+          },
+          {
+            "number": 9,
+            "output": "64"
+          },
+          {
+            "number": 10,
+            "output": "84"
+          },
+          {
+            "number": 11,
+            "output": "90"
+          }
+        ]
+      },
+      {
+        "number": 33,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "8"
+          },
+          {
+            "number": 2,
+            "output": "0"
+          },
+          {
+            "number": 3,
+            "output": "9"
+          },
+          {
+            "number": 4,
+            "output": "1"
+          },
+          {
+            "number": 5,
+            "output": "0"
+          },
+          {
+            "number": 6,
+            "output": "0"
+          },
+          {
+            "number": 7,
+            "output": "10"
+          },
+          {
+            "number": 8,
+            "output": "0"
+          },
+          {
+            "number": 9,
+            "output": "0"
+          },
+          {
+            "number": 10,
+            "output": "0"
+          },
+          {
+            "number": 11,
+            "output": "0"
+          }
+        ]
+      },
+      {
+        "number": 36,
+        "testCases": [
+          {
+            "number": 1,
+            "output": "3"
+          },
+          {
+            "number": 2,
+            "output": "3"
+          },
+          {
+            "number": 3,
+            "output": "2"
+          },
+          {
+            "number": 4,
+            "output": "3"
+          },
+          {
+            "number": 5,
+            "output": "4"
+          },
+          {
+            "number": 6,
+            "output": "2"
+          },
+          {
+            "number": 7,
+            "output": "2"
+          },
+          {
+            "number": 8,
+            "output": "2"
+          },
+          {
+            "number": 9,
+            "output": "2"
+          },
+          {
+            "number": 10,
+            "output": "2"
+          },
+          {
+            "number": 11,
+            "output": "2"
+          }
+        ]
+      }
+    ]
+  }
+]

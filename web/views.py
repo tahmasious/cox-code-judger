@@ -2,7 +2,7 @@ from django.shortcuts import render
 import datetime
 from .forms import submitAnswer
 from .models import TestCase, TestCaseTry, Team, Question, Setting
-
+from checkyourself.settings import BASE_DIR
 
 def submitTestCase(request):
     if request.method == 'POST':
@@ -25,8 +25,12 @@ def submitTestCase(request):
                         'message': 'You can attempt more than 3 times for each test case !',
                                                            'color': 'error'
                                     })
-                is_correct = submitted_answer == test_case_obj.answer.split(',')
+                is_correct = submitted_answer == test_case_obj.answer.split(' ')
                 TestCaseTry.objects.create(test_case=test_case_obj, is_correct=is_correct, submitted_answer=submitted_answer)
+                print(submitted_answer)
+                print(type(submitted_answer))
+                print(test_case_obj.answer.split(' '))
+                print(type(test_case_obj.answer.split(' ')))
                 if is_correct:
                     test_case_obj.is_answered = True
                     now = datetime.datetime.now()
@@ -39,7 +43,7 @@ def submitTestCase(request):
                     message = 'wrong answer'
                     color = 'error'
                 return render(request, 'submit.html', {'message': message, 'color': color})
-            return render(request, 'submit.html', {'message': 'there is no such test case and question'})
+            return render(request, 'submit.html', {'message': 'there is no such test case and question', 'color': 'error'})
         else:
             return render(request, 'submit.html', {'message': 'some kiri problem here'})
     else:
@@ -69,3 +73,38 @@ def scorePage(request):
         })
 
     return render(request, 'score.html', {'teams': sorted(result, key=lambda x: x['score'])[::-1], 'time_to_refresh': time_to_refresh})
+
+import json
+def read_from_file(request):
+    Team.objects.all().delete()
+    TestCase.objects.all().delete()
+    Question.objects.all().delete()
+
+    print(BASE_DIR)
+    # Opening JSON file
+    f = open( f'{BASE_DIR}/web/end.json')
+
+    # returns JSON object as
+    # a dictionary
+    data = json.load(f)
+
+    # Iterating through the json
+    # list
+
+    for team in data:
+        team_number = team['number']
+        team_obj = Team.objects.create(name=team_number)
+        team_obj.save()
+        questions = team['questions']
+        for question in questions:
+            question_obj = Question.objects.create(number=question['number'], team=team_obj)
+            question_obj.save()
+            test_cases = question['testCases']
+            for test_case in test_cases:
+                test_case_answer = test_case['output']
+                test_case_obj = TestCase.objects.create(number=test_case['number'], question=question_obj
+                                                        ,answer=test_case_answer)
+                test_case_obj.save()
+
+    # Closing file
+    return render(request, 'submit.html', {'message': 'success'})
