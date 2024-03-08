@@ -13,8 +13,8 @@
     <div class="flex flex-col justify-center ">
         <div class="max-w-[400px] min-w-[350px]  bg-slate-300 rounded-xl p-8">
             <ul>
-              {% for team in teams %}
-                <li>{{ team.name }} : {{team.score}} | timestamp sum : {{team.timestamps}}</li>
+              {% for teamNumber,value in teams.items %}
+                <li>{{ teamNumber }} : {{value.score}} | timestamp sum : {{value.timestamps}} </li>
               {% endfor %}
             </ul>
         </div>

@@ -52,27 +52,25 @@ def submitTestCase(request):
 
 
 def scorePage(request):
-    result = []
+    result = {}
     teams = Team.objects.all()
     time_to_refresh = 1500
     setting = Setting.objects.all()
     if setting.exists():
         time_to_refresh = setting.last().reload_time
     for team in teams:
-        team_score = 0
-        team_timestamps = 0
-        team_questions = Question.objects.filter(team=team)
-        test_cases = TestCase.objects.filter(question__in=team_questions)
-        for test_case in test_cases:
-            team_score += 10 if test_case.is_answered else 0
-            team_timestamps += test_case.answer_timestamp if test_case.answer_timestamp else 0
-        result.append({
-            'name': team.name,
-            'score': team_score,
-            'timestamps': team_timestamps
-        })
+        result[f'{team.name}'] = {'score': 0, 'timestamp' : 0}
 
-    return render(request, 'score.html', {'teams': sorted(result, key=lambda x: x['score'])[::-1], 'time_to_refresh': time_to_refresh})
+    test_case_objs = TestCase.objects.all()
+
+    for test_case_obj in test_case_objs:
+        if test_case_obj.is_answered:
+            result[f'{test_case_obj.question.team.name}']['score'] += 30
+        else:
+            from_team = test_case_obj.question.from_team.name if test_case_obj.question.from_team else 3
+            result[f'{from_team}']['score'] += 30
+
+    return render(request, 'score.html', {'teams': result, 'time_to_refresh': time_to_refresh})
 
 import json
 def read_from_file(request):
@@ -83,6 +81,10 @@ def read_from_file(request):
     print(BASE_DIR)
     # Opening JSON file
     f = open( f'{BASE_DIR}/web/end.json')
+    second = open( f'{BASE_DIR}/web/second.json')
+    seccond_data = json.load(second)
+
+
 
     # returns JSON object as
     # a dictionary
@@ -97,14 +99,25 @@ def read_from_file(request):
         team_obj.save()
         questions = team['questions']
         for question in questions:
-            question_obj = Question.objects.create(number=question['number'], team=team_obj)
+            question_obj = Question.objects.create(number=question['number'], from_team=team_obj)
             question_obj.save()
             test_cases = question['testCases']
             for test_case in test_cases:
                 test_case_answer = test_case['output']
-                test_case_obj = TestCase.objects.create(number=test_case['number'], question=question_obj
+                test_case_obj = TestCase.objects.create(number=test_case['number'],
+                                                        question=question_obj
                                                         ,answer=test_case_answer)
                 test_case_obj.save()
 
-    # Closing file
+
+    for item in seccond_data:
+        assigned_questions = item['assignedQuestions']
+        team_number = item['GroupName']
+        team_obj = Team.objects.get(name=team_number)
+        for assQuestion in assigned_questions:
+            print(int(assQuestion['QuestionName']))
+            question_obj = Question.objects.get(number=int(assQuestion['QuestionName']))
+            question_obj.team = team_obj
+            question_obj.save()
+
     return render(request, 'submit.html', {'message': 'success'})

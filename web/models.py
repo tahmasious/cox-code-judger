@@ -8,16 +8,20 @@ from django.db import models
 
 class Team(models.Model):
     name = models.CharField(max_length=1024)
+    score = models.IntegerField(default=0, blank=True, null=True)
+    sum_timestamp = models.BigIntegerField(blank=True, null=True)
 
     def __str__(self):
         return self.name
 
 class Question(models.Model):
     number = models.IntegerField()
-    team = models.ForeignKey(Team, on_delete=models.CASCADE, null=True, blank=True)
-
+    team = models.ForeignKey(Team, on_delete=models.CASCADE, null=True, blank=True, related_name='doer_team') #
+    from_team = models.ForeignKey(Team, on_delete=models.CASCADE, null=True, blank=True, related_name='from_team')
     def __str__(self):
-        return f'Q{self.number} -> team : {self.team.name}'
+        from_team_name = self.from_team.name if self.from_team else 'empty'
+        to_team_name = self.team.name if self.team else 'empty'
+        return f'Q{self.number} -> from_team : {from_team_name} | to_team_name : {to_team_name}'
 
 class TestCase(models.Model):
     number = models.IntegerField()

@@ -1,0 +1,381 @@
+[
+  {
+    "questions": [
+      {
+        "GroupNumber": 1,
+        "QuestionName": "1",
+        "TestCases": [
+          {
+            "Output": "-1\r\n-1\r\n14\r\n22\r\n23\r\n23\r\n23\r\n23\r\n23\r\n24",
+            "Accepted": true,
+            "number": 1
+          },
+          {
+            "Output": "-1\r\n-1\r\n26\r\n33\r\n33\r\n40\r\n40\r\n44\r\n44\r\n44",
+            "Accepted": true,
+            "number": 10
+          },
+          {
+            "Output": "-1\r\n-1\r\n35\r\n40\r\n53\r\n56\r\n56\r\n56",
+            "Accepted": true,
+            "number": 11
+          },
+          {
+            "Output": "-1\r\n-1\r\n38\r\n39\r\n39\r\n44\r\n44\r\n44",
+            "Accepted": true,
+            "number": 2
+          },
+          {
+            "Output": "-1\r\n-1\r\n39\r\n46\r\n46\r\n54",
+            "Accepted": true,
+            "number": 3
+          },
+          {
+            "Output": "-1\r\n-1\r\n35\r\n44",
+            "Accepted": true,
+            "number": 4
+          },
+          {
+            "Output": "-1\r\n-1\r\n32\r\n37\r\n43\r\n43\r\n43\r\n44\r\n44\r\n44\r\n44",
+            "Accepted": true,
+            "number": 5
+          },
+          {
+            "Output": "-1\r\n-1\r\n34\r\n34\r\n42\r\n42\r\n50\r\n52\r\n52\r\n52\r\n52",
+            "Accepted": true,
+            "number": 6
+          },
+          {
+            "Output": "-1\r\n-1\r\n30",
+            "Accepted": true,
+            "number": 7
+          },
+          {
+            "Output": "-1\r\n-1\r\n36\r\n36\r\n47\r\n47\r\n47\r\n54\r\n54\r\n54\r\n54",
+            "Accepted": true,
+            "number": 8
+          },
+          {
+            "Output": "-1\r\n-1\r\n34\r\n39\r\n39\r\n39\r\n39\r\n39\r\n40\r\n40",
+            "Accepted": true,
+            "number": 9
+          }
+        ],
+        "IsValid": false
+      },
+      {
+        "GroupNumber": 1,
+        "QuestionName": "2",
+        "TestCases": [
+          {
+            "Output": "3",
+            "Accepted": true,
+            "number": 1
+          },
+          {
+            "Output": "0",
+            "Accepted": true,
+            "number": 10
+          },
+          {
+            "Output": "7\n",
+            "Accepted": true,
+            "number": 11
+          },
+          {
+            "Output": "0",
+            "Accepted": true,
+            "number": 2
+          },
+          {
+            "Output": "8",
+            "Accepted": true,
+            "number": 3
+          },
+          {
+            "Output": "0",
+            "Accepted": true,
+            "number": 4
+          },
+          {
+            "Output": "7",
+            "Accepted": true,
+            "number": 5
+          },
+          {
+            "Output": "3",
+            "Accepted": true,
+            "number": 6
+          },
+          {
+            "Output": "0",
+            "Accepted": true,
+            "number": 7
+          },
+          {
+            "Output": "4",
+            "Accepted": true,
+            "number": 8
+          },
+          {
+            "Output": "5",
+            "Accepted": true,
+            "number": 9
+          }
+        ],
+        "IsValid": true
+      },
+      {
+        "GroupNumber": 1,
+        "QuestionName": "3",
+        "TestCases": [
+          {
+            "Output": "6",
+            "Accepted": true,
+            "number": 1
+          },
+          {
+            "Output": "12",
+            "Accepted": true,
+            "number": 10
+          },
+          {
+            "Output": "32\n",
+            "Accepted": true,
+            "number": 11
+          },
+          {
+            "Output": "8",
+            "Accepted": true,
+            "number": 2
+          },
+          {
+            "Output": "12",
+            "Accepted": true,
+            "number": 3
+          },
+          {
+            "Output": "60",
+            "Accepted": true,
+            "number": 4
+          },
+          {
+            "Output": "6",
+            "Accepted": true,
+            "number": 5
+          },
+          {
+            "Output": "30",
+            "Accepted": true,
+            "number": 6
+          },
+          {
+            "Output": "12",
+            "Accepted": true,
+            "number": 7
+          },
+          {
+            "Output": "24",
+            "Accepted": true,
+            "number": 8
+          },
+          {
+            "Output": "6",
+            "Accepted": true,
+            "number": 9
+          }
+        ],
+        "IsValid": false
+      }
+    ],
+    "GroupName": "1",
+    "assignedQuestions": [
+      {
+        "GroupNumber": 5,
+        "QuestionName": "16",
+        "TestCases": [
+          {
+            "Output": "45",
+            "Accepted": true,
+            "number": 1
+          },
+          {
+            "Output": "4944",
+            "Accepted": true,
+            "number": 10
+          },
+          {
+            "Output": "1914",
+            "Accepted": true,
+            "number": 11
+          },
+          {
+            "Output": "4356",
+            "Accepted": true,
+            "number": 2
+          },
+          {
+            "Output": "35",
+            "Accepted": true,
+            "number": 3
+          },
+          {
+            "Output": "343",
+            "Accepted": true,
+            "number": 4
+          },
+          {
+            "Output": "456",
+            "Accepted": true,
+            "number": 5
+          },
+          {
+            "Output": "740",
+            "Accepted": true,
+            "number": 6
+          },
+          {
+            "Output": "4307",
+            "Accepted": true,
+            "number": 7
+          },
+          {
+            "Output": "297",
+            "Accepted": true,
+            "number": 8
+          },
+          {
+            "Output": "4494",
+            "Accepted": true,
+            "number": 9
+          }
+        ],
+        "IsValid": true
+      },
+      {
+        "GroupNumber": 5,
+        "QuestionName": "15",
+        "TestCases": [
+          {
+            "Output": "4",
+            "Accepted": true,
+            "number": 1
+          },
+          {
+            "Output": "8",
+            "Accepted": true,
+            "number": 10
+          },
+          {
+            "Output": "12",
+            "Accepted": true,
+            "number": 11
+          },
+          {
+            "Output": "8",
+            "Accepted": true,
+            "number": 2
+          },
+          {
+            "Output": "12",
+            "Accepted": true,
+            "number": 3
+          },
+          {
+            "Output": "4",
+            "Accepted": true,
+            "number": 4
+          },
+          {
+            "Output": "2",
+            "Accepted": true,
+            "number": 5
+          },
+          {
+            "Output": "2",
+            "Accepted": true,
+            "number": 6
+          },
+          {
+            "Output": "0",
+            "Accepted": true,
+            "number": 7
+          },
+          {
+            "Output": "0",
+            "Accepted": true,
+            "number": 8
+          },
+          {
+            "Output": "6",
+            "Accepted": true,
+            "number": 9
+          }
+        ],
+        "IsValid": true
+      },
+      {
+        "GroupNumber": 2,
+        "QuestionName": "4",
+        "TestCases": [
+          {
+            "Output": "561920755",
+            "Accepted": true,
+            "number": 1
+          },
+          {
+            "Output": "4270",
+            "Accepted": true,
+            "number": 10
+          },
+          {
+            "Output": "485756",
+            "Accepted": true,
+            "number": 11
+          },
+          {
+            "Output": "69373",
+            "Accepted": true,
+            "number": 2
+          },
+          {
+            "Output": "201730",
+            "Accepted": true,
+            "number": 3
+          },
+          {
+            "Output": "33250",
+            "Accepted": true,
+            "number": 4
+          },
+          {
+            "Output": "447913",
+            "Accepted": true,
+            "number": 5
+          },
+          {
+            "Output": "61734",
+            "Accepted": true,
+            "number": 6
+          },
+          {
+            "Output": "76250",
+            "Accepted": true,
+            "number": 7
+          },
+          {
+            "Output": "944453",
+            "Accepted": true,
+            "number": 8
+          },
+          {
+            "Output": "61",
+            "Accepted": true,
+            "number": 9
+          }
+        ],
+        "IsValid": true
+      }
+    ]
+  }
+]
