@@ -72,52 +72,73 @@ def scorePage(request):
 
     return render(request, 'score.html', {'teams': result, 'time_to_refresh': time_to_refresh})
 
-import json
-def read_from_file(request):
-    Team.objects.all().delete()
-    TestCase.objects.all().delete()
-    Question.objects.all().delete()
+# import json
+# def read_from_file(request):
+#     Team.objects.all().delete()
+#     TestCase.objects.all().delete()
+#     Question.objects.all().delete()
+#
+#     print(BASE_DIR)
+#     # Opening JSON file
+#     f = open( f'{BASE_DIR}/web/end.json')
+#     second = open( f'{BASE_DIR}/web/second.json')
+#     seccond_data = json.load(second)
+#
+#
+#
+#     # returns JSON object as
+#     # a dictionary
+#     data = json.load(f)
+#
+#     # Iterating through the json
+#     # list
+#
+#     for team in data:
+#         team_number = team['number']
+#         team_obj = Team.objects.create(name=team_number)
+#         team_obj.save()
+#         questions = team['questions']
+#         for question in questions:
+#             question_obj = Question.objects.create(number=question['number'], from_team=team_obj)
+#             question_obj.save()
+#             test_cases = question['testCases']
+#             for test_case in test_cases:
+#                 test_case_answer = test_case['output']
+#                 test_case_obj = TestCase.objects.create(number=test_case['number'],
+#                                                         question=question_obj
+#                                                         ,answer=test_case_answer)
+#                 test_case_obj.save()
+#
+#
+#     for item in seccond_data:
+#         assigned_questions = item['assignedQuestions']
+#         team_number = item['GroupName']
+#         team_obj = Team.objects.get(name=team_number)
+#         for assQuestion in assigned_questions:
+#             print(int(assQuestion['QuestionName']))
+#             question_obj = Question.objects.get(number=int(assQuestion['QuestionName']))
+#             question_obj.team = team_obj
+#             question_obj.save()
+#
+#     return render(request, 'submit.html', {'message': 'success'})
 
-    print(BASE_DIR)
-    # Opening JSON file
-    f = open( f'{BASE_DIR}/web/end.json')
-    second = open( f'{BASE_DIR}/web/second.json')
-    seccond_data = json.load(second)
+
+from django.http import JsonResponse
+def get_all_test_case_tries(request):
+    test_cases = TestCaseTry.objects.values()
+    return JsonResponse(list(test_cases), safe=False)
+
+def get_all_test_cases(request):
+    test_cases = TestCase.objects.values()
+    return JsonResponse(list(test_cases), safe=False)
 
 
+def get_all_test_cases_with_teams(request):
+    test_cases = list(TestCase.objects.values())
+    for test_case in test_cases:
+        question = TestCase.objects.get(id=test_case['id']).question
+        test_case['from_team'] = question.from_team.name if question.from_team else ''
+        test_case['to_team'] = question.team.name if question.team else ''
+        test_case['questionNumber'] = question.number
 
-    # returns JSON object as
-    # a dictionary
-    data = json.load(f)
-
-    # Iterating through the json
-    # list
-
-    for team in data:
-        team_number = team['number']
-        team_obj = Team.objects.create(name=team_number)
-        team_obj.save()
-        questions = team['questions']
-        for question in questions:
-            question_obj = Question.objects.create(number=question['number'], from_team=team_obj)
-            question_obj.save()
-            test_cases = question['testCases']
-            for test_case in test_cases:
-                test_case_answer = test_case['output']
-                test_case_obj = TestCase.objects.create(number=test_case['number'],
-                                                        question=question_obj
-                                                        ,answer=test_case_answer)
-                test_case_obj.save()
-
-
-    for item in seccond_data:
-        assigned_questions = item['assignedQuestions']
-        team_number = item['GroupName']
-        team_obj = Team.objects.get(name=team_number)
-        for assQuestion in assigned_questions:
-            print(int(assQuestion['QuestionName']))
-            question_obj = Question.objects.get(number=int(assQuestion['QuestionName']))
-            question_obj.team = team_obj
-            question_obj.save()
-
-    return render(request, 'submit.html', {'message': 'success'})
+    return JsonResponse(list(test_cases), safe=False)
