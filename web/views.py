@@ -132,6 +132,7 @@ def get_all_test_case_tries(request):
         test_case['from_team'] = question.from_team.name if question.from_team else ''
         test_case['to_team'] = question.team.name if question.team else ''
         test_case['questionNumber'] = question.number
+        test_case['test_case_number'] = test_case_try_obj.test_case.number
     return JsonResponse(list(test_cases), safe=False)
 
 def get_all_test_cases(request):
