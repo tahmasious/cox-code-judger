@@ -125,7 +125,13 @@ def scorePage(request):
 
 from django.http import JsonResponse
 def get_all_test_case_tries(request):
-    test_cases = TestCaseTry.objects.values()
+    test_cases = list(TestCaseTry.objects.values())
+    for test_case in test_cases:
+        test_case_try_obj = TestCaseTry.objects.get(id=test_case['id'])
+        question = test_case_try_obj.test_case.question
+        test_case['from_team'] = question.from_team.name if question.from_team else ''
+        test_case['to_team'] = question.team.name if question.team else ''
+        test_case['questionNumber'] = question.number
     return JsonResponse(list(test_cases), safe=False)
 
 def get_all_test_cases(request):
